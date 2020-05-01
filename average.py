@@ -2,7 +2,7 @@ def get_average(string):
     try:
         sum = 0
         sum_list = []
-        for i in string.split(' '):
+        for i in string.split():
             sum_list.append(int(i))
         for i in sum_list:
             sum = sum + i
